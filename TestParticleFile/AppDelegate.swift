@@ -1,9 +1,5 @@
 //
 //  AppDelegate.swift
-//  TestParticleFile
-//
-//  Created by 齋藤緒 on 2016/08/27.
-//  Copyright © 2016年 TestOrganization. All rights reserved.
 //
 
 import UIKit
