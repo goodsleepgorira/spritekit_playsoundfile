@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88DDB3961D71787600369A01"
-               BuildableName = "TestParticleFile.app"
-               BlueprintName = "TestParticleFile"
-               ReferencedContainer = "container:TestParticleFile.xcodeproj">
+               BuildableName = "TestPlaySoundFile.app"
+               BlueprintName = "TestPlaySoundFile"
+               ReferencedContainer = "container:TestPlaySoundFile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88DDB3961D71787600369A01"
-            BuildableName = "TestParticleFile.app"
-            BlueprintName = "TestParticleFile"
-            ReferencedContainer = "container:TestParticleFile.xcodeproj">
+            BuildableName = "TestPlaySoundFile.app"
+            BlueprintName = "TestPlaySoundFile"
+            ReferencedContainer = "container:TestPlaySoundFile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88DDB3961D71787600369A01"
-            BuildableName = "TestParticleFile.app"
-            BlueprintName = "TestParticleFile"
-            ReferencedContainer = "container:TestParticleFile.xcodeproj">
+            BuildableName = "TestPlaySoundFile.app"
+            BlueprintName = "TestPlaySoundFile"
+            ReferencedContainer = "container:TestPlaySoundFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88DDB3961D71787600369A01"
-            BuildableName = "TestParticleFile.app"
-            BlueprintName = "TestParticleFile"
-            ReferencedContainer = "container:TestParticleFile.xcodeproj">
+            BuildableName = "TestPlaySoundFile.app"
+            BlueprintName = "TestPlaySoundFile"
+            ReferencedContainer = "container:TestPlaySoundFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

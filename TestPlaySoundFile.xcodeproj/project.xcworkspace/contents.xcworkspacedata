@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestParticleFile.xcodeproj">
+      location = "self:/Users/saitouhajime/Documents/spritekit_particle_file2/TestPlaySoundFile.xcodeproj">
    </FileRef>
 </Workspace>

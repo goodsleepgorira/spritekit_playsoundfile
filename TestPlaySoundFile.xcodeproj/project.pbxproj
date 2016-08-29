@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88DDB3971D71787600369A01 /* TestParticleFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestParticleFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DDB3971D71787600369A01 /* TestPlaySoundFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPlaySoundFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DDB39A1D71787600369A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88DDB39C1D71787600369A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88DDB39F1D71787600369A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		88DDB3981D71787600369A01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88DDB3971D71787600369A01 /* TestParticleFile.app */,
+				88DDB3971D71787600369A01 /* TestPlaySoundFile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88DDB3961D71787600369A01 /* TestParticleFile */ = {
+		88DDB3961D71787600369A01 /* TestPlaySoundFile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88DDB3A91D71787600369A01 /* Build configuration list for PBXNativeTarget "TestParticleFile" */;
+			buildConfigurationList = 88DDB3A91D71787600369A01 /* Build configuration list for PBXNativeTarget "TestPlaySoundFile" */;
 			buildPhases = (
 				88DDB3931D71787600369A01 /* Sources */,
 				88DDB3941D71787600369A01 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TestParticleFile;
+			name = TestPlaySoundFile;
 			productName = TestParticleFile;
-			productReference = 88DDB3971D71787600369A01 /* TestParticleFile.app */;
+			productReference = 88DDB3971D71787600369A01 /* TestPlaySoundFile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88DDB3921D71787600369A01 /* Build configuration list for PBXProject "TestParticleFile" */;
+			buildConfigurationList = 88DDB3921D71787600369A01 /* Build configuration list for PBXProject "TestPlaySoundFile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88DDB3961D71787600369A01 /* TestParticleFile */,
+				88DDB3961D71787600369A01 /* TestPlaySoundFile */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 				INFOPLIST_FILE = TestParticleFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestParticleFile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestPlaySoundFile;
 			};
 			name = Debug;
 		};
@@ -271,14 +271,14 @@
 				INFOPLIST_FILE = TestParticleFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestParticleFile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TestPlaySoundFile;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88DDB3921D71787600369A01 /* Build configuration list for PBXProject "TestParticleFile" */ = {
+		88DDB3921D71787600369A01 /* Build configuration list for PBXProject "TestPlaySoundFile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88DDB3A71D71787600369A01 /* Debug */,
@@ -287,13 +287,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88DDB3A91D71787600369A01 /* Build configuration list for PBXNativeTarget "TestParticleFile" */ = {
+		88DDB3A91D71787600369A01 /* Build configuration list for PBXNativeTarget "TestPlaySoundFile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88DDB3AA1D71787600369A01 /* Debug */,
 				88DDB3AB1D71787600369A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
