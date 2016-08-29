@@ -16,6 +16,9 @@
 		88DDB3AF1D71791700369A01 /* TestScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DDB3AE1D71791700369A01 /* TestScene.sks */; };
 		88EB832A1D73BAB500CBB92D /* bird_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88EB83281D73BAB500CBB92D /* bird_sound.mp3 */; };
 		88EB832B1D73BAB500CBB92D /* bird_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88EB83291D73BAB500CBB92D /* bird_music.mp3 */; };
+		88EB83371D73F45800CBB92D /* sound_do.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88EB83341D73F45800CBB92D /* sound_do.mp3 */; };
+		88EB83381D73F45800CBB92D /* sound_mi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88EB83351D73F45800CBB92D /* sound_mi.mp3 */; };
+		88EB83391D73F45800CBB92D /* sound_so.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88EB83361D73F45800CBB92D /* sound_so.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +31,11 @@
 		88DDB3A61D71787600369A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88DDB3AC1D7178C500369A01 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
 		88DDB3AE1D71791700369A01 /* TestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestScene.sks; sourceTree = "<group>"; };
-		88EB83281D73BAB500CBB92D /* bird_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird_sound.mp3; sourceTree = "<group>"; };
-		88EB83291D73BAB500CBB92D /* bird_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird_music.mp3; sourceTree = "<group>"; };
+		88EB83281D73BAB500CBB92D /* bird_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird_sound.mp3; path = ../bird_sound.mp3; sourceTree = "<group>"; };
+		88EB83291D73BAB500CBB92D /* bird_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bird_music.mp3; path = ../bird_music.mp3; sourceTree = "<group>"; };
+		88EB83341D73F45800CBB92D /* sound_do.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_do.mp3; sourceTree = "<group>"; };
+		88EB83351D73F45800CBB92D /* sound_mi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_mi.mp3; sourceTree = "<group>"; };
+		88EB83361D73F45800CBB92D /* sound_so.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_so.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +74,23 @@
 				88DDB3AC1D7178C500369A01 /* TestScene.swift */,
 				88DDB3AE1D71791700369A01 /* TestScene.sks */,
 				88DDB3A11D71787600369A01 /* Assets.xcassets */,
+				88EB83331D73F45800CBB92D /* sound */,
 				88DDB3A31D71787600369A01 /* LaunchScreen.storyboard */,
 				88DDB3A61D71787600369A01 /* Info.plist */,
-				88EB83281D73BAB500CBB92D /* bird_sound.mp3 */,
-				88EB83291D73BAB500CBB92D /* bird_music.mp3 */,
 			);
 			path = TestParticleFile;
+			sourceTree = "<group>";
+		};
+		88EB83331D73F45800CBB92D /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				88EB83281D73BAB500CBB92D /* bird_sound.mp3 */,
+				88EB83291D73BAB500CBB92D /* bird_music.mp3 */,
+				88EB83341D73F45800CBB92D /* sound_do.mp3 */,
+				88EB83351D73F45800CBB92D /* sound_mi.mp3 */,
+				88EB83361D73F45800CBB92D /* sound_so.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,10 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB83381D73F45800CBB92D /* sound_mi.mp3 in Resources */,
 				88EB832A1D73BAB500CBB92D /* bird_sound.mp3 in Resources */,
+				88EB83391D73F45800CBB92D /* sound_so.mp3 in Resources */,
 				88EB832B1D73BAB500CBB92D /* bird_music.mp3 in Resources */,
 				88DDB3A51D71787600369A01 /* LaunchScreen.storyboard in Resources */,
 				88DDB3A21D71787600369A01 /* Assets.xcassets in Resources */,
+				88EB83371D73F45800CBB92D /* sound_do.mp3 in Resources */,
 				88DDB3AF1D71791700369A01 /* TestScene.sks in Resources */,
 				88DDB3A01D71787600369A01 /* Main.storyboard in Resources */,
 			);
