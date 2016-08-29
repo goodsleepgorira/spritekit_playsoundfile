@@ -9,6 +9,7 @@ class TestScene:SKScene {
 
     var birdBrown:SKSpriteNode!
 
+    let aaa = "test"
 
     //現在シーン設定時の呼び出しメソッド
     override func didMoveToView(view: SKView) {
